@@ -1,0 +1,36 @@
+# Keil 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.dep
+*.iex
+*.htm
+*.lnp
+*.sct
+*.build_log.htm
+MDK-ARM/Project_C8/
+MDK-ARM/RTE/
+MDK-ARM/DebugConfig/
+MDK-ARM/*.uvguix.*
+MDK-ARM/JLinkLog.txt
+
+# Keil 预览缓存
+__Previews/
+
+# 本地凭据（绝不入库）
+Air724_config_local.h
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+# 网盘/同步工具残留
+*.baiduyun.*
+*.uploading.cfg
+*.tmp
+~$*

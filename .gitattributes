@@ -1,0 +1,25 @@
+# 默认按文本处理，统一 LF 入库
+* text=auto eol=lf
+
+# C 源码与头文件
+*.c    text eol=lf
+*.h    text eol=lf
+*.s    text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+
+# Keil / CubeMX 工程文件（Windows 工具链，保持 CRLF）
+*.uvprojx text eol=crlf
+*.uvoptx  text eol=crlf
+*.ioc     text eol=crlf
+*.mxproject text eol=crlf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+# 二进制
+*.lib  binary
+*.a    binary
+*.icf  binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
